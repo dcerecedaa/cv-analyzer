@@ -1,0 +1,84 @@
+/* Drop Zone */
+.drop-zone {
+    border: 3px dashed #2a5298;
+    border-radius: 15px;
+    padding: 60px 20px;
+    text-align: center;
+    background: #f8f9ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.drop-zone:hover {
+    border-color: #1e3c72;
+    background: #f0f2ff;
+    transform: translateY(-2px);
+}
+
+.drop-zone.drag-over {
+    border-color: #1e3c72;
+    background: #e8ebff;
+    transform: scale(1.02);
+}
+
+.drop-zone-icon {
+    font-size: 3rem;
+    color: #2a5298;
+    margin-bottom: 15px;
+}
+
+.drop-zone-text {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.drop-zone-subtext {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.file-info {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background: #e8f5e9;
+    border-radius: 10px;
+    color: #2e7d32;
+    font-weight: 500;
+}
+
+.file-info.active {
+    display: block;
+}
+
+/* Botón de análisis */
+.analyze-button {
+    width: 100%;
+    padding: 18px;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.analyze-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(42, 82, 152, 0.4);
+}
+
+.analyze-button:active {
+    transform: translateY(0);
+}
+
+.analyze-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}

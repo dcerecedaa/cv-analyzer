@@ -1,0 +1,42 @@
+{
+  "experience_patterns": {
+    "years_experience": [
+      "\\d+\\s*años de experiencia",
+      "\\d+\\s*years of experience",
+      "\\d+\\+\\s*años",
+      "más de \\d+ años",
+      "experiencia de \\d+ años"
+    ],
+    "time_periods": [
+      "desde \\d{4}",
+      "\\d{4}\\s*-\\s*\\d{4}",
+      "\\d{4}\\s*-\\s*presente",
+      "\\d{4}\\s*-\\s*actualidad",
+      "\\d{4}\\s*-\\s*present"
+    ]
+  },
+
+  "education_patterns": {
+    "degrees": [
+      "grado en", "licenciatura en", "bachelor",
+      "máster en", "master in", "mba",
+      "doctorado", "phd", "ingeniero en",
+      "técnico en", "fp en"
+    ]
+  },
+
+  "location_patterns": [
+    "madrid", "barcelona", "valencia", "sevilla",
+    "remote", "remoto", "híbrido", "hybrid",
+    "presencial", "on-site"
+  ],
+
+  "achievement_keywords": [
+    "desarrollé", "desarrollado", "implemented", "created",
+    "lideré", "led", "managed", "gestioné",
+    "optimicé", "optimized", "mejoré", "improved",
+    "diseñé", "designed", "construí", "built",
+    "logré", "achieved", "reduje", "reduced",
+    "aumenté", "increased", "implementé"
+  ]
+}

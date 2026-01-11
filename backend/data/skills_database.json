@@ -1,0 +1,113 @@
+{
+  "technical_skills": {
+    "programming_languages": [
+      "Python", "JavaScript", "Java", "C#", "C++", "TypeScript", "PHP", "Ruby", "Go", "Rust",
+      "Swift", "Kotlin", "Scala", "R", "MATLAB", "Perl", "Dart", "Elixir", "Haskell",
+      "C", "SQL", "HTML", "CSS", "Shell", "Bash", "PowerShell"
+    ],
+    "frameworks_backend": [
+      "Django", "Flask", "FastAPI", "Spring", "Spring Boot", "Express", "NestJS", "Laravel",
+      ".NET", "ASP.NET", "Ruby on Rails", "Symfony", "Pyramid", "Tornado", "CherryPy",
+      "Gin", "Echo", "Fiber"
+    ],
+    "frameworks_frontend": [
+      "React", "Angular", "Vue", "Vue.js", "Svelte", "Next.js", "Nuxt.js", "Gatsby",
+      "jQuery", "Bootstrap", "Tailwind", "Material-UI", "Ant Design", "Chakra UI",
+      "Ember.js", "Backbone.js", "Alpine.js"
+    ],
+    "mobile_development": [
+      "React Native", "Flutter", "Ionic", "Xamarin", "SwiftUI", "Jetpack Compose",
+      "Kotlin Multiplatform", "Cordova", "PhoneGap"
+    ],
+    "databases": [
+      "MySQL", "PostgreSQL", "MongoDB", "Redis", "SQLite", "Oracle", "SQL Server",
+      "MariaDB", "Cassandra", "DynamoDB", "Firebase", "Firestore", "Elasticsearch",
+      "Neo4j", "CouchDB", "InfluxDB"
+    ],
+    "cloud_platforms": [
+      "AWS", "Azure", "Google Cloud", "GCP", "Heroku", "DigitalOcean", "Vercel",
+      "Netlify", "Railway", "Render", "Cloudflare"
+    ],
+    "devops_tools": [
+      "Docker", "Kubernetes", "Jenkins", "GitLab CI", "GitHub Actions", "CircleCI",
+      "Travis CI", "Terraform", "Ansible", "Puppet", "Chef", "Vagrant", "Nginx",
+      "Apache", "Prometheus", "Grafana", "ELK Stack", "Datadog"
+    ],
+    "version_control": [
+      "Git", "GitHub", "GitLab", "Bitbucket", "SVN", "Mercurial"
+    ],
+    "testing": [
+      "Jest", "Mocha", "Pytest", "JUnit", "TestNG", "Selenium", "Cypress",
+      "Playwright", "Puppeteer", "Postman", "Insomnia", "JMeter"
+    ],
+    "data_science_ml": [
+      "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas", "NumPy",
+      "Matplotlib", "Seaborn", "Jupyter", "Apache Spark", "Hadoop", "Airflow"
+    ],
+    "other_tools": [
+      "VS Code", "IntelliJ", "PyCharm", "Eclipse", "Vim", "Emacs",
+      "Postman", "Jira", "Confluence", "Slack", "Trello", "Notion",
+      "Figma", "Adobe XD", "Photoshop", "Illustrator"
+    ]
+  },
+  
+  "soft_skills": [
+    "liderazgo", "trabajo en equipo", "comunicación", "resolución de problemas",
+    "pensamiento crítico", "creatividad", "adaptabilidad", "gestión del tiempo",
+    "organización", "autonomía", "proactividad", "colaboración", "mentoring",
+    "negociación", "presentaciones", "inglés", "bilingüe"
+  ],
+
+  "experience_keywords": {
+    "years_patterns": [
+      "\\d+\\s*años?", "\\d+\\s*years?", "\\d+\\+\\s*años?", "\\d+\\+\\s*years?",
+      "más de \\d+ años?", "more than \\d+ years?", "over \\d+ years?"
+    ],
+    "experience_levels": {
+      "junior": ["junior", "trainee", "becario", "intern", "entry level", "prácticas"],
+      "mid": ["mid", "semi senior", "intermedio", "intermediate", "profesional"],
+      "senior": ["senior", "lead", "principal", "experto", "expert", "architect", "arquitecto"]
+    }
+  },
+
+  "context_keywords": {
+    "professional": [
+      "empresa", "compañía", "company", "cliente", "proyecto profesional",
+      "trabajo", "job", "employment", "empleado", "desarrollador en",
+      "ingeniero en", "consultor", "freelance", "contractor", "producción",
+      "comercial", "negocio", "business"
+    ],
+    "academic": [
+      "universidad", "university", "college", "máster", "master", "grado",
+      "degree", "bachelor", "doctorado", "phd", "investigación", "research",
+      "tesis", "thesis", "curso", "course", "certificación", "certification",
+      "formación", "training", "bootcamp", "academia", "escuela"
+    ],
+    "personal": [
+      "proyecto personal", "personal project", "side project", "hobby",
+      "portafolio", "portfolio", "github", "open source", "contribución",
+      "autodidacta", "self-taught", "aprendizaje", "learning", "práctica"
+    ]
+  },
+
+  "job_roles": [
+    "desarrollador", "developer", "programador", "programmer",
+    "ingeniero", "engineer", "software engineer",
+    "frontend", "backend", "fullstack", "full stack",
+    "devops", "data scientist", "data engineer", "data analyst",
+    "qa", "tester", "architect", "arquitecto",
+    "tech lead", "team lead", "cto", "manager",
+    "designer", "diseñador", "ux", "ui"
+  ],
+
+  "certifications": [
+    "AWS Certified", "Azure Certified", "Google Cloud Certified",
+    "Certified Kubernetes", "PMP", "Scrum Master", "Product Owner",
+    "ITIL", "CISSP", "CompTIA"
+  ],
+
+  "methodologies": [
+    "Agile", "Scrum", "Kanban", "Lean", "XP", "TDD", "BDD",
+    "CI/CD", "DevOps", "Waterfall", "SAFe"
+  ]
+}
