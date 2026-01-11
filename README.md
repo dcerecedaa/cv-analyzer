@@ -2,8 +2,6 @@
 
 Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponderado.
 
-![CV Analyzer](screenshots/dashboard.png)
-
 ## Descripción
 
 CV Analyzer es una aplicación web que permite evaluar automáticamente qué tan bien encaja un perfil profesional con los requisitos de una oferta laboral. A diferencia de los sistemas básicos de detección de palabras clave, este proyecto implementa un modelo de puntuación que considera múltiples factores:
