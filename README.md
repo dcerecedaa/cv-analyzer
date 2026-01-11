@@ -160,7 +160,7 @@ Analiza un CV contra una oferta de trabajo.
 - Integración con LinkedIn API
 - Comparación de múltiples CVs para una misma oferta
 - Exportación de resultados a PDF
-- Sistema de usuarios y historial de análisis
+- Sistema de usuarios e historial de análisis
 - Scraping automático de ofertas de empleo
 - Fine-tuning del modelo con datos reales
 
