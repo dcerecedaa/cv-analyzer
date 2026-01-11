@@ -1,8 +1,8 @@
-# CV Analyzer
+# 🎯 CV Analyzer
 
 Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponderado.
 
-## Descripción
+## 📖 Descripción
 
 CV Analyzer es una aplicación web que permite evaluar automáticamente qué tan bien encaja un perfil profesional con los requisitos de una oferta laboral. A diferencia de los sistemas básicos de detección de palabras clave, este proyecto implementa un modelo de puntuación que considera múltiples factores:
 
@@ -12,17 +12,17 @@ CV Analyzer es una aplicación web que permite evaluar automáticamente qué tan
 
 El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofreciendo un análisis claro, visual y accionable.
 
-## Características principales
+## ✨ Características principales
 
-- Extracción automática de texto desde archivos PDF
-- Detección de habilidades técnicas organizadas por categorías
-- Análisis del nivel de experiencia (junior, mid, senior)
-- Identificación del contexto de uso de las tecnologías
-- Sistema de scoring ponderado y explicable
-- Recomendaciones personalizadas para mejorar el perfil
-- Interfaz limpia y responsive
+- 📄 Extracción automática de texto desde archivos PDF
+- 🔍 Detección de habilidades técnicas organizadas por categorías
+- 📊 Análisis del nivel de experiencia (junior, mid, senior)
+- 🎯 Identificación del contexto de uso de las tecnologías
+- ⚖️ Sistema de scoring ponderado y explicable
+- 💡 Recomendaciones personalizadas para mejorar el perfil
+- 📱 Interfaz limpia y responsive
 
-## Stack tecnológico
+## 🛠️ Stack tecnológico
 
 ### Backend
 - Python 3.10+
@@ -36,7 +36,7 @@ El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofrec
 - JavaScript vanilla (sin frameworks)
 - Diseño responsive
 
-## Estructura del proyecto
+## 📁 Estructura del proyecto
 ```
 cv-analyzer/
 ├── backend/
@@ -68,7 +68,7 @@ cv-analyzer/
     └── index.html
 ```
 
-## Instalación y ejecución
+## 🚀 Instalación y ejecución
 
 ### Requisitos previos
 - Python 3.10 o superior
@@ -89,7 +89,7 @@ Abre el archivo `frontend/index.html` con tu navegador o usando Live Server en V
 
 **Nota:** El backend (puerto 8000) solo expone la API REST. La interfaz visual está en el archivo HTML del frontend.
 
-## Uso
+## 💻 Uso
 
 1. Asegúrate de que el backend esté corriendo en el puerto 8000
 2. Abre `frontend/index.html` en tu navegador
@@ -102,7 +102,7 @@ Abre el archivo `frontend/index.html` con tu navegador o usando Live Server en V
    - Skills encontradas vs faltantes
    - Recomendaciones personalizadas
 
-## Modelo de scoring
+## ⚙️ Modelo de scoring
 
 El sistema utiliza un modelo de ponderación configurable:
 ```python
@@ -115,7 +115,7 @@ weights = {
 
 Este modelo puede ajustarse según las necesidades específicas de cada empresa o sector.
 
-## API Endpoints
+## 🔌 API Endpoints
 
 ### POST `/api/analyze`
 
@@ -147,14 +147,14 @@ Analiza un CV contra una oferta de trabajo.
 }
 ```
 
-## Limitaciones conocidas
+## ⚠️ Limitaciones conocidas
 
 - Solo soporta archivos PDF (no DOCX)
 - La detección de años de experiencia es básica y puede mejorarse con regex más complejos
 - El análisis está optimizado para perfiles técnicos (desarrollo de software)
 - No hay persistencia de datos (sin base de datos)
 
-## Posibles mejoras futuras
+## 🔮 Posibles mejoras futuras
 
 - Soporte para más formatos de CV (DOCX, TXT)
 - Integración con LinkedIn API
@@ -164,15 +164,15 @@ Analiza un CV contra una oferta de trabajo.
 - Scraping automático de ofertas de empleo
 - Fine-tuning del modelo con datos reales
 
-## Contribuciones
+## 🤝 Contribuciones
 
-Este proyecto está abierto a contribuciones. Si tienes ideas de mejora o encuentras algún bug, no dudes en abrir un issue o pull request.
+Este proyecto está abierto a sugerencias y feedback. Si tienes ideas de mejora o encuentras algún bug, no dudes en abrir un issue.
 
-## Licencia
+## 📜 Derechos de uso
 
-MIT License - Siéntete libre de usar este código para tus propios proyectos.
+Este código es de visualización pública con fines demostrativos. Puedes explorar y aprender del código, pero **no está permitido su uso en proyectos comerciales o personales**. El propósito es mostrar habilidades técnicas y lógica de programación.
 
-## Autor
+## 👨‍💻 Autor
 
 David Cereceda Pérez  
 [GitHub](https://github.com/dcerecedaa) | [LinkedIn](https://linkedin.com/in/david-cereceda-perez-3ba0962b6)
