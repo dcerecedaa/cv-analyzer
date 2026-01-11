@@ -175,7 +175,7 @@ MIT License - Siéntete libre de usar este código para tus propios proyectos.
 ## Autor
 
 David Cereceda Pérez  
-[GitHub](https://github.com/tu-usuario) | [LinkedIn](https://linkedin.com/in/tu-perfil)
+[GitHub](https://github.com/dcerecedaa) | [LinkedIn](https://linkedin.com/in/david-cereceda-perez-3ba0962b6)
 
 ---
 
