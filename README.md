@@ -2,6 +2,12 @@
 
 Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponderado.
 
+> ⚠️ **Nota:** Este proyecto está diseñado como demostración de habilidades técnicas y lógica aplicada.  
+> No pretende ser un sistema de evaluación de CVs en producción ni reemplazar un ATS real.  
+> El foco está en mostrar el procesamiento de texto, la ponderación explicable y la generación de recomendaciones.
+
+---
+
 ## 📖 Descripción
 
 CV Analyzer es una aplicación web que permite evaluar automáticamente qué tan bien encaja un perfil profesional con los requisitos de una oferta laboral. A diferencia de los sistemas básicos de detección de palabras clave, este proyecto implementa un modelo de puntuación que considera múltiples factores:
@@ -10,7 +16,9 @@ CV Analyzer es una aplicación web que permite evaluar automáticamente qué tan
 - **Experiencia** (30%): Nivel profesional y años de experiencia
 - **Contexto** (10%): Origen de la experiencia (profesional, académico, personal)
 
-El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofreciendo un análisis claro, visual y accionable.
+El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofreciendo un análisis claro, visual y accionable, **con limitaciones intencionadas para mantener la implementación simple y enfocada en la lógica técnica**.
+
+---
 
 ## ✨ Características principales
 
@@ -21,6 +29,8 @@ El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofrec
 - ⚖️ Sistema de scoring ponderado y explicable
 - 💡 Recomendaciones personalizadas para mejorar el perfil
 - 📱 Interfaz limpia y responsive
+
+---
 
 ## 🛠️ Stack tecnológico
 
@@ -35,6 +45,8 @@ El objetivo es simular el primer filtro que realizan los ATS y recruiters, ofrec
 - HTML5 / CSS3
 - JavaScript vanilla (sin frameworks)
 - Diseño responsive
+
+---
 
 ## 📁 Estructura del proyecto
 ```
@@ -53,7 +65,7 @@ cv-analyzer/
 │   │   └── main.py                   # Configuración FastAPI
 │   ├── data/
 │   │   ├── skills_database.json      # Base de datos de tecnologías
-│   │   └── keywords.json             # Patrones de detección
+│   │   │── keywords.json              # Patrones de detección
 │   └── requirements.txt
 │
 └── frontend/
@@ -68,6 +80,8 @@ cv-analyzer/
     └── index.html
 ```
 
+---
+
 ## 🚀 Instalación y ejecución
 
 ### Requisitos previos
@@ -80,14 +94,13 @@ cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ```
-
 El servidor API estará corriendo en `http://localhost:8000`
 
 ### 2. Abrir el frontend
-
-Abre el archivo `frontend/index.html` con tu navegador o usando Live Server en VS Code.
-
+Abre `frontend/index.html` con tu navegador o usando Live Server en VS Code.  
 **Nota:** El backend (puerto 8000) solo expone la API REST. La interfaz visual está en el archivo HTML del frontend.
+
+---
 
 ## 💻 Uso
 
@@ -102,6 +115,8 @@ Abre el archivo `frontend/index.html` con tu navegador o usando Live Server en V
    - Skills encontradas vs faltantes
    - Recomendaciones personalizadas
 
+---
+
 ## ⚙️ Modelo de scoring
 
 El sistema utiliza un modelo de ponderación configurable:
@@ -113,7 +128,49 @@ weights = {
 }
 ```
 
-Este modelo puede ajustarse según las necesidades específicas de cada empresa o sector.
+**Notas importantes:**
+- Los pesos se eligieron por heurística para esta demo y pueden ajustarse según necesidades reales.  
+- El modelo no es predictivo ni garantiza éxito en procesos de selección.  
+- El scoring es lineal y simplificado; no maneja interacciones complejas entre skills y experiencia.
+
+---
+
+## 🔍 Detección de skills
+
+- Las habilidades se detectan usando `skills_database.json` y `keywords.json`.
+- No se aplica NLP avanzado ni modelos de ML; pueden producirse falsos positivos o negativos.
+- No se resuelven automáticamente sinónimos ni abreviaturas complejas (por ejemplo, JS ≠ JavaScript en todos los casos).  
+- Este enfoque es suficiente para la demo y para mostrar lógica de programación.
+
+---
+
+## 📊 Nivel de experiencia
+
+- Se infiere a partir de años indicados en el CV y contexto textual.
+- Clasificación simplificada: junior / mid / senior.
+- Limitaciones conocidas:
+  - Experiencia solapada no se calcula automáticamente
+  - No se detecta seniority implícito (ej. liderazgo, responsabilidades)
+- Este enfoque es suficiente para la demo y para mostrar lógica de programación.
+
+---
+
+## 📄 Extracción de PDF
+
+- Se usa PyPDF2 para leer texto de archivos PDF.
+- PDFs escaneados (imagen) no son soportados.  
+- El sistema no preserva el formato original; solo se analiza el texto.
+- Esta decisión mantiene la demo simple y funcional sin complejidad adicional.
+
+---
+
+## 🏗️ Arquitectura
+
+- Backend con FastAPI y servicios separados para mantener código limpio y modular.
+- No hay base de datos; los datos se procesan en memoria para simplificar la demo.
+- Seguridad, persistencia y escalabilidad no están implementadas por diseño, dado que el objetivo es demostrar lógica y procesamiento de texto.
+
+---
 
 ## 🔌 API Endpoints
 
@@ -147,12 +204,16 @@ Analiza un CV contra una oferta de trabajo.
 }
 ```
 
+---
+
 ## ⚠️ Limitaciones conocidas
 
 - Solo soporta archivos PDF (no DOCX)
 - La detección de años de experiencia es básica y puede mejorarse con regex más complejos
 - El análisis está optimizado para perfiles técnicos (desarrollo de software)
 - No hay persistencia de datos (sin base de datos)
+
+---
 
 ## 🔮 Posibles mejoras futuras
 
@@ -164,13 +225,20 @@ Analiza un CV contra una oferta de trabajo.
 - Scraping automático de ofertas de empleo
 - Fine-tuning del modelo con datos reales
 
+---
+
 ## 🤝 Contribuciones
 
 Este proyecto está abierto a sugerencias y feedback. Si tienes ideas de mejora o encuentras algún bug, no dudes en abrir un issue.
 
+---
+
 ## 📜 Derechos de uso
 
-Este código es de visualización pública con fines demostrativos. Puedes explorar y aprender del código, pero **no está permitido su uso en proyectos comerciales o personales**. El propósito es mostrar habilidades técnicas y lógica de programación.
+Todo el código está disponible únicamente con fines **educativos y demostrativos**.  
+No se permite su uso en proyectos comerciales, personales o cualquier otro uso fuera de aprendizaje y exploración técnica.
+
+---
 
 ## 👨‍💻 Autor
 
@@ -179,4 +247,5 @@ David Cereceda Pérez
 
 ---
 
-**Nota:** Este proyecto fue desarrollado como demostración de habilidades técnicas en desarrollo full-stack y procesamiento de lenguaje natural aplicado.
+> ⚠️ **Nota final:** Este proyecto es educativo y de demostración.  
+> No está pensado para uso comercial ni producción, y se incluyen limitaciones intencionadas para mantener la implementación clara y enfocada en la lógica técnica.
