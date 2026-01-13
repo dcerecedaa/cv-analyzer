@@ -233,13 +233,6 @@ Este proyecto está abierto a sugerencias y feedback. Si tienes ideas de mejora 
 
 ---
 
-## 📜 Derechos de uso
-
-Todo el código está disponible únicamente con fines **educativos y demostrativos**.  
-No se permite su uso en proyectos comerciales, personales o cualquier otro uso fuera de aprendizaje y exploración técnica.
-
----
-
 ## 👨‍💻 Autor
 
 David Cereceda Pérez  
