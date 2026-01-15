@@ -158,7 +158,7 @@ weights = {
 ## 📄 Extracción de PDF
 
 - Se usa PyPDF2 para leer texto de archivos PDF.
-- PDFs escaneados (imagen) no son soportados.  
+- PDFs escaneados no son soportados.  
 - El sistema no preserva el formato original; solo se analiza el texto.
 - Esta decisión mantiene la demo simple y funcional sin complejidad adicional.
 
