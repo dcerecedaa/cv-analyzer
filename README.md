@@ -223,7 +223,7 @@ Analiza un CV contra una oferta de trabajo.
 - Exportación de resultados a PDF
 - Sistema de usuarios e historial de análisis
 - Scraping automático de ofertas de empleo
-- Fine-tuning del modelo con datos reales
+- Fine-tuning del modelo con datos rea
 
 ---
 
