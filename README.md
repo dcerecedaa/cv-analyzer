@@ -3,7 +3,7 @@
 Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponderado.
 
 > ⚠️ **Nota:** Este proyecto está diseñado como demostración de habilidades técnicas y lógica aplicada.  
-> No pretende ser un sistema de evaluación de CVs en producción ni reemplazar un ATS real.  
+> No pretende ser un sistema de evaluación de CVs en producción ni reemplazar un ATS real
 > El foco está en mostrar el procesamiento de texto, la ponderación explicable y la generación de recomendaciones.
 
 ---
