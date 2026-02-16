@@ -1,6 +1,6 @@
 # 🎯 CV Analyzer
 
-Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponde
+Sistema de análisis inteligente de currículums que evalúa la compatibilidad entre un CV y una oferta de trabajo mediante un modelo de scoring ponder
 
 > ⚠️ **Nota:** Este proyecto está diseñado como demostración de habilidades técnicas y lógica aplicada.  
 > No pretende ser un sistema de evaluación de CVs en producción ni reemplazar un ATS real.
