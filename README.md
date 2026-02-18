@@ -4,7 +4,7 @@ Sistema de análisis inteligente de currículums que evalúa la compatibilidad e
 
 > ⚠️ **Nota:** Este proyecto está diseñado como demostración de habilidades técnicas y lógica aplicada.  
 > No pretende ser un sistema de evaluación de CVs en producción ni reemplazar un ATS real.
-> El foco está en mostrar el procesamiento de texto, la ponderación explicable y la generación de recomendacion
+> El foco está en mostrar el procesamiento de texto, la ponderación explicable y la generación de recomendacione
 
 ---
 
